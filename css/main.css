@@ -316,7 +316,101 @@ html {
           box-sizing: inherit; }
 
 body {
-  color: #F9C802;
-  background: #000; }
+  background-color: #8BC6EC;
+  background-image: -webkit-linear-gradient(315deg, #8BC6EC 0%, #9599E2 100%);
+  background-image: -o-linear-gradient(315deg, #8BC6EC 0%, #9599E2 100%);
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); }
+
+.article__header {
+  color: gray;
+  background: #F8E5E6;
+  clear: both; }
+
+.article {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding-top: 30px; }
+
+.article__heading {
+  text-align: center;
+  size: 40px;
+  color: #3A5673; }
+
+.article__link {
+  text-decoration: none;
+  color: #271140; }
+
+.article__section {
+  line-height: 24px;
+  color: #51B9CD;
+  background: #AAF1F5;
+  position: relative; }
+
+.article__paragraph {
+  padding-left: 20px;
+  overflow: hidden; }
+
+.article__picture {
+  width: 100%;
+  max-width: 400px;
+  float: left;
+  padding: 15px 15px;
+  display: block;
+  overflow: hidden;
+  clear: left; }
+
+.article__text {
+  text-align: center;
+  clear: left;
+  margin-top: 15px; }
+
+.article__top {
+  width: 100%;
+  max-width: 900px;
+  margin: 32px auto;
+  padding-top: 15px; }
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+.header__navigation {
+  display: none; }
+
+.header__link {
+  font-family: verdana;
+  font-style: oblique;
+  -webkit-margin-end: 16px;
+          margin-inline-end: 16px;
+  text-decoration: none; }
+
+@media (max-width: 550px) {
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; } }
+
+@media print {
+  .body {
+    background: #F8E5E6; } }
+
+.navigation__swatcher {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 16px;
+  top: 16px; }
 
 /*# sourceMappingURL=main.css.map */
