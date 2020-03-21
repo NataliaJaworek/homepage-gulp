@@ -17,6 +17,7 @@ if ('serviceWorker' in navigator) {
 // place your code below
 
 
-console.log(`Hello world!`);
-
-
+const navigationSwetcher = document.querySelector('.navigation__swatcher--js')
+navigationSwetcher.addEventListener('click', function(event){
+    console.log(event)
+})
